@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="IDz1jvHQKEeDgxVQQxlJ">
+    <mxGraphModel dx="1684" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=13;" value="Начало" vertex="1">
+          <mxGeometry height="80" width="240" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=13;" value="Ввод point_x, point_y" vertex="1">
+          <mxGeometry height="160" width="240" x="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;align=center;fontSize=13;" value="&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(15, 17, 21); font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; white-space: pre-wrap; line-height: 30%;&quot;&gt;(point_x² + point_y² ≤ 9) и &lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; text-align: start; white-space: pre-wrap; background-color: transparent;&quot;&gt;((point_y ≥ -point_x+3) или       (point_y ≤ point_x-3))&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="240" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="in_shaded_area = True" vertex="1">
+          <mxGeometry height="160" width="240" x="440" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="in_shaded_area = False" vertex="1">
+          <mxGeometry height="160" width="240" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-8" edge="1" parent="1" source="sGF2g6LW-oSptsWp87Uw-2" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="sGF2g6LW-oSptsWp87Uw-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="180" as="sourcePoint" />
+            <mxPoint x="330" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-9" edge="1" parent="1" source="sGF2g6LW-oSptsWp87Uw-3" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="sGF2g6LW-oSptsWp87Uw-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="330" as="sourcePoint" />
+            <mxPoint x="350" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-11" edge="1" parent="1" source="sGF2g6LW-oSptsWp87Uw-7" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="sGF2g6LW-oSptsWp87Uw-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="400" as="sourcePoint" />
+            <mxPoint x="90" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-12" edge="1" parent="1" source="sGF2g6LW-oSptsWp87Uw-6" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="sGF2g6LW-oSptsWp87Uw-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="450" as="sourcePoint" />
+            <mxPoint x="710" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-13" edge="1" parent="1" source="sGF2g6LW-oSptsWp87Uw-7" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="sGF2g6LW-oSptsWp87Uw-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160.05" y="700" />
+              <mxPoint x="560.05" y="700" />
+            </Array>
+            <mxPoint x="290" y="770" as="sourcePoint" />
+            <mxPoint x="340" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=13;" value="Вывод&amp;nbsp;in_shaded_area" vertex="1">
+          <mxGeometry height="160" width="240" x="240" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-15" edge="1" parent="1" source="sGF2g6LW-oSptsWp87Uw-14" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="740" as="sourcePoint" />
+            <mxPoint x="360" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=13;" value="Конец" vertex="1">
+          <mxGeometry height="80" width="240" x="240" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-17" edge="1" parent="1" source="sGF2g6LW-oSptsWp87Uw-16" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="sGF2g6LW-oSptsWp87Uw-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="940" as="sourcePoint" />
+            <mxPoint x="650" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="True" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="sGF2g6LW-oSptsWp87Uw-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="False" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
